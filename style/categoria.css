@@ -6,7 +6,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #FDFBF8 !important;
 }
 
 main {
