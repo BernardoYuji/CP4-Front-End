@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDFBF8 !important;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.navbar {
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.navbar.bg-success {
+    background-color: #4C9A7D !important;
+}
+
+
+.btn.btn-success w-100{
+    background-color: #4C9A7D !important
+}
+footer {
+    text-align: center;
+}
