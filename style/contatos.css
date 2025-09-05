@@ -1,0 +1,127 @@
+body {
+  font-family: lato;
+  background-color: #FDFBF8; 
+  color: #3C3C3C; 
+}
+
+h1 {
+    font-family: Playfair Display;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #4C9A7D; 
+}
+
+p {
+    font-size: 1.2rem;
+  font-family:lato ;
+  color: #3C3C3C;
+}
+
+form label {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #3C3C3C;
+}
+
+form input.form-control:focus, form select.form-select:focus, form textarea.form-control:focus {
+  border-color: #4C9A7D;
+  outline: none;
+}
+
+form input.form-control,
+form select.form-select,
+form textarea.form-control {
+  border-color: #C9A45C; 
+}
+form input.form-control:hover,
+form select.form-select:hover,
+form textarea.form-control:hover {
+  border-color: #4C9A7D; 
+}
+
+form select.form-select option {
+  background-color: #FFFF;
+  color: #4C9A7D; 
+}
+
+form select.form-select option:hover {
+  background-color: #C9A45C; 
+  color: #fff;
+}
+.btn-dark {
+  background-color: #4C9A7D; 
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.9rem;
+  border-radius: 6px;
+}
+
+.btn-dark:hover {
+  background-color: #EAE2D6;
+  color: #4C9A7D; 
+}
+
+footer {
+  background-color: #EAE2D6; 
+  margin-top: auto;
+}
+
+footer p {
+  color: #3C3C3C;
+  font-family: lato;
+}
+
+footer a {
+  color: #4C9A7D;
+}
+
+footer a:hover {
+  color: #C9A45C; 
+}
+
+.redes-sociais {
+  max-width: 500px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .btn-dark {
+    font-size: 0.95rem;
+  }
+
+  .contact-card {
+    padding: 1.5rem;
+  }
+}
+
+ul.list-unstyled li i {
+    color: #4C9A7D;
+}
+ul.list-unstyled li  {
+    color: #C9A45C;
+}
+
+ul.list-unstyled li:hover  {
+    cursor: pointer;
+    color: #4C9A7D;
+}
