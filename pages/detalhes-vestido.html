@@ -32,7 +32,18 @@
   </div>
 
   <main class="main-content">
-    <div class="product-container">
+    <div class="product-container" id="responsive">
+      <style>
+        @media (max-width: 1000px) {
+          #responsive {
+            display: flex;
+            flex-direction: column;
+          }
+          #responsive > img {
+            width: 300px;
+          }
+        }
+      </style>
       <div class="product-image">
         <img src="../assets/VestidoFeminino.png" style="width: 500px; height: 500px;" alt="Moletom Oakley">
       </div>

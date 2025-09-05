@@ -32,7 +32,18 @@
   </div>
 
   <main class="main-content">
-    <div class="product-container">
+    <div class="product-container" id="responsive">
+      <style>
+        @media (max-width: 1000px) {
+          #responsive {
+            display: flex;
+            flex-direction: column;
+          }
+          #responsive > img {
+            width: 300px;
+          }
+        }
+      </style>
       <div class="product-image creme-image">
         <img src="../assets/macacaoFeminino.png" style="width: 900px; height: 500px;" alt="Creme Loreal">
       </div>
